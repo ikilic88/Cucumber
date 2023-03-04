@@ -1,8 +1,6 @@
 package utilities;
-
 import java.io.FileInputStream;
 import java.util.Properties;
-
 public class ConfigReader {
     //    This class will ONLY be used for getting the data from
 //    configuration.properties file
@@ -22,10 +20,8 @@ public class ConfigReader {
             e.printStackTrace();
         }
     }
-
     //    This method accepts the key and returns the value
     public static String getProperty(String key){
         return properties.getProperty(key);
     }
-
 }

@@ -1,9 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Cucumber" time="0.32" tests="1" skipped="0" failures="1" errors="0">
-<testcase classname="excel_login_feature" name="TC01_musteri_giris_testi" time="0.053">
+<testsuite name="Cucumber" time="36.606" tests="3" skipped="0" failures="3" errors="0">
+<testcase classname="arama_feature" name="TC01_google_iphone_arama" time="15.038">
 <failure/>
 <system-out><![CDATA[
-Given kullanici "customer_info" bilgileri ile giris yapar...................undefined
+Given kullanici google gider................................................passed
+When kullanici "iphone" için arama yapar....................................undefined
+Then sonuclarin "iphone" icerdigini dogrula.................................skipped
+Then close the application..................................................skipped
+]]></system-out>
+</testcase>
+<testcase classname="arama_feature" name="TC02_google_tesla_arama" time="10.566">
+<failure/>
+<system-out><![CDATA[
+Given kullanici google gider................................................passed
+When kullanici "tesla" için arama yapar.....................................undefined
+Then sonuclarin "tesla" icerdigini dogrula..................................skipped
+Then close the application..................................................skipped
+]]></system-out>
+</testcase>
+<testcase classname="arama_feature" name="TC03_google_water_arama" time="10.546">
+<failure/>
+<system-out><![CDATA[
+Given kullanici google gider................................................passed
+When kullanici "water" için arama yapar.....................................undefined
+Then sonuclarin "water" icerdigini dogrula..................................skipped
+Then close the application..................................................skipped
 ]]></system-out>
 </testcase>
 </testsuite>
