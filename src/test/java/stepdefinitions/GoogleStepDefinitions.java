@@ -19,7 +19,7 @@ public class GoogleStepDefinitions {
         }catch (Exception e){
         }
     }
-    @When("kullanici iphone için arama yapar")
+    @When("kullanici iphone icin arama yapar")
     public void kullanici_iphone_icin_arama_yapar() {
         googlePage.searchBox.sendKeys("iPhone"+ Keys.ENTER);
     }
@@ -39,8 +39,8 @@ public class GoogleStepDefinitions {
     public void sonuclarda_tesla_oldugunu_dogrular() {
         Assert.assertTrue(Driver.getDriver().getPageSource().contains("tesla"));
     }
-    @When("kullanici {string} için arama yapar")
-    public void kullanici_icmin_arama_yapar(String string) {
+    @When("kullanici {string} icin arama yapar")
+    public void kullanici_icin_arama_yapar(String string) {
         googlePage.searchBox.sendKeys(string+Keys.ENTER);
     }
     @Then("sonuclarin {string} icerdigini dogrula")

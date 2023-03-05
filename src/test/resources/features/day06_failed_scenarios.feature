@@ -5,10 +5,11 @@ Feature: hooks_test
 #  Bu scenariolar bilerek fail ettik.
 # Raporlarda Fail durumunda ekran goruntusu eklenmis olacakdir
   Scenario: TC01_google_iphone_arama
-    When kullanici "iphone" için arama yapar
+    When kullanici "iphone" icin arama yapar
     Then sonuclarin "iphone" icerdigini dogrula
     Then close the application
   Scenario: TC02_google_tesla_arama
-    When kullanici "tesla" için arama yapar
+    When kullanici "tesla" icin arama yapar
     Then sonuclarin "tesla" icerdigini dogrula
+    Then ekran goruntusu al
     Then close the application

@@ -9,7 +9,7 @@ Feature: ilk feature file
     Then close the application
   @tesla
   Scenario: TC02_google_tesla_arama
-    When kullanici tesla için arama yapar
+    When kullanici tesla icin arama yapar
     Then sonuclarda tesla oldugunu dogrular
     Then close the application
 #  1. Her feature file, Feature: kelimesi ile baslamak zorundadir
@@ -28,4 +28,3 @@ Feature: ilk feature file
 #  11. dryRun=false -> dryRun yokmus gibi normal sekilde calisir. Yani tum adimlari tek tetk browserda acar.
 #      dryRun=true  -> Yeni bir STEP(adim) eklendiginde sadece tanimlanmamis step definitions lari olusturmak icin kullanilir
 #      kullanilma sebebi zamandan tasarrufdur.
-

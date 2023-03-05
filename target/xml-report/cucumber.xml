@@ -1,30 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Cucumber" time="36.606" tests="3" skipped="0" failures="3" errors="0">
-<testcase classname="arama_feature" name="TC01_google_iphone_arama" time="15.038">
-<failure/>
+<testsuite name="Cucumber" time="33.744" tests="2" skipped="0" failures="0" errors="0">
+<testcase classname="hooks_test" name="TC01_google_iphone_arama" time="16.673">
 <system-out><![CDATA[
 Given kullanici google gider................................................passed
-When kullanici "iphone" için arama yapar....................................undefined
-Then sonuclarin "iphone" icerdigini dogrula.................................skipped
-Then close the application..................................................skipped
+When kullanici "iphone" icin arama yapar....................................passed
+Then sonuclarin "iphone" icerdigini dogrula.................................passed
+Then close the application..................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="arama_feature" name="TC02_google_tesla_arama" time="10.566">
-<failure/>
+<testcase classname="hooks_test" name="TC02_google_tesla_arama" time="16.843">
 <system-out><![CDATA[
 Given kullanici google gider................................................passed
-When kullanici "tesla" için arama yapar.....................................undefined
-Then sonuclarin "tesla" icerdigini dogrula..................................skipped
-Then close the application..................................................skipped
-]]></system-out>
-</testcase>
-<testcase classname="arama_feature" name="TC03_google_water_arama" time="10.546">
-<failure/>
-<system-out><![CDATA[
-Given kullanici google gider................................................passed
-When kullanici "water" için arama yapar.....................................undefined
-Then sonuclarin "water" icerdigini dogrula..................................skipped
-Then close the application..................................................skipped
+When kullanici "tesla" icin arama yapar.....................................passed
+Then sonuclarin "tesla" icerdigini dogrula..................................passed
+Then ekran goruntusu al.....................................................passed
+Then close the application..................................................passed
 ]]></system-out>
 </testcase>
 </testsuite>
